@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How-To Guides - Recipe Paradise</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="Photo/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="logo">Recipe Paradise</div>
+            <div class="search-wrapper">
+                <input type="text" placeholder="What do you want to learn?">
+                <button>Search</button>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="howto.html" class="active">How-To</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 2rem; margin-bottom: 2rem;">
+        <h1 style="font-family: 'Georgia', serif; color: var(--primary-red);">Kitchen Tips & Tricks</h1>
+        <p>Learn the basics of baking, grilling, and meal prep.</p>
+    </div>
+
+    <main class="container">
+        
+        <article style="display: flex; gap: 20px; background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 250px;">
+                <img src="Photo/pasta2.webp" style="width: 100%; border-radius: 5px;">
+            </div>
+            <div style="flex: 2;">
+                <h3 style="color: var(--primary-red); margin-bottom: 10px;">How to Cook the Perfect Pasta</h3>
+                <p>Stop overcooking your noodles! Follow these simple steps to get al dente pasta every single time.</p>
+                <a href="pasta2.html" class="btn-primary" style="background: var(--primary-red); color: white; margin-top: 15px;">Read Guide</a>
+            </div>
+        </article>
+
+        <article style="display: flex; gap: 20px; background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 250px;">
+                <img src="Photo/samosa.avif" style="width: 100%; border-radius: 5px;">
+            </div>
+            <div style="flex: 2;">
+                <h3 style="color: var(--primary-red); margin-bottom: 10px;">The Secret to crispy Samosa</h3>
+                <p>Are your pancakes flat and rubbery? Learn the science behind baking powder and buttermilk.</p>
+                <a href="samosa.html" class="btn-primary" style="background: var(--primary-red); color: white; margin-top: 15px;">Read Guide</a>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <p> 2025 Recipe Paradise.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

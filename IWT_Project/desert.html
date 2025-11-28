@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Recipes - Recipe Paradice</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="Photo/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="logo">Recipe Paradise</div>
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search recipes...">
+                <button>Search</button>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html" class="active">Recipes</a>
+                <a href="howto.html">How-To</a>
+               
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 2rem;">
+        <h1 style="font-family: 'Georgia', serif; color: var(--primary-red);">Browse All Recipes</h1>
+        <p>Explore our complete collection of delicious meals.</p>
+    </div>
+
+    <main class="container">
+        
+        <div class="filters" style="margin: 20px 0; display: flex; gap: 10px;">
+            <a href="recipes.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem; background: #eee; color: #333;">Breakfast</button></a>
+            <a href="dinner.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem; background: #eee; color: #333;">Dinner</button></a>
+            <a href="desert.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem; ">Dessert</button></a>
+        </div>
+
+        <div class="recipe-grid">
+            
+            <a href="gulab_jamun.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/gulab__jamun.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Gulab Jamun</h3>
+                    <div class="rating">★★★★☆ <span>(1200)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="laddu.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/laddu.webp');"></div>
+                <div class="card-content">
+                    <h3>Besan Laddu</h3>
+                    <div class="rating">★★★★★ <span>(650)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="cupcake.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/cupcake.jpg');"></div>
+                <div class="card-content">
+                    <h3>Vanilla Cupcakes </h3>
+                    <div class="rating">★★★★★ <span>(350)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="jalebi.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/jalebi.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Crispy Jalebi</h3>
+                    <div class="rating">★★★★☆ <span>(900)</span></div>
+                </div>
+            </article>
+            </a>
+            
+            <a href="muffin.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/muffin.jpg');"></div>
+                <div class="card-content">
+                    <h3>Crispy Eggless Waffles</h3>
+                    <div class="rating">★★★★★ <span>(150)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="donut.html" style="text-decoration: none; color: inherit;">
+             <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/donut.webp');"></div>
+                <div class="card-content">
+                    <h3>Eggless Chocolate Donuts</h3>
+                    <div class="rating">★★★★☆ <span>(430)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="halwa.html" style="text-decoration: none; color: inherit;">
+             <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/halwa.jpg');"></div>
+                <div class="card-content">
+                    <h3>Gajar Ka Halwa</h3>
+                    <div class="rating">★★★★★ <span>(420)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="cake.html" style="text-decoration: none; color: inherit;">
+             <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/cake.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Chocolate Cake</h3>
+                    <div class="rating">★★★★☆ <span>(310)</span></div>
+                </div>
+            </article>
+            </a>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <p> Recipe Paradise.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

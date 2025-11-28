@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Recipes - Recipe Paradice</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="Photo/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="logo">Recipe Paradise</div>
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search recipes...">
+                <button>Search</button>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html" class="active">Recipes</a>
+                <a href="howto.html">How-To</a>
+               
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 2rem;">
+        <h1 style="font-family: 'Georgia', serif; color: var(--primary-red);">Browse All Recipes</h1>
+        <p>Explore our complete collection of delicious meals.</p>
+    </div>
+
+    <main class="container">
+        
+        <div class="filters" style="margin: 20px 0; display: flex; gap: 10px;">
+            <a href="recipes.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem;">Breakfast</button></a>
+            <a href="dinner.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem; background: #eee; color: #333;">Dinner</button></a>
+            <a href="desert.html"><button class="btn-primary" style="padding: 8px 16px; font-size: 0.9rem; background: #eee; color: #333;">Dessert</button></a>
+        </div>
+
+        <div class="recipe-grid">
+            
+            <a href="burger.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/burger.avif');"></div>
+                <div class="card-content">
+                    <h3>Classic Cheeseburger</h3>
+                    <div class="rating">★★★★★ <span>(900)</span></div>
+                </div>
+            </article>
+            </a>
+            
+            <a href="sel-roti.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/sel-roti.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Sel Roti (Nepal Special)</h3>
+                    <div class="rating">★★★★★ <span>(1250)</span></div>
+                </div>
+            </article>
+            </a>
+
+             <a href="thukpa.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/thukpa.webp');"></div>
+                <div class="card-content">
+                    <h3>Thukpa</h3>
+                    <div class="rating">★★★★☆ <span>(553)</span></div>
+                </div>
+            </article>
+
+            <a href="cake.html" style="text-decoration: none; color: inherit;">
+             <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/cake.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Chocolate Cake</h3>
+                    <div class="rating">★★★★☆ <span>(310)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="pancakes.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/pancake.jpg');"></div>
+                <div class="card-content">
+                    <h3>Buttermilk Pancakes</h3>
+                    <div class="rating">★★★★★ <span>(420)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="momo.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/momo.jpeg');"></div>
+                <div class="card-content">
+                    <h3>Mo:mo</h3>
+                    <div class="rating">★★★★★ <span>(650)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="salad.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/salad.jpg');"></div>
+                <div class="card-content">
+                    <h3>Desi kachumber Salad</h3>
+                    <div class="rating">★★★★☆ <span>(223)</span></div>
+                </div>
+            </article>
+            </a>
+
+            <a href="pasta.html" style="text-decoration: none; color: inherit;">
+            <article class="recipe-card">
+                <div class="card-image" style="background-image: url('Photo/pasta.webp');"></div>
+                <div class="card-content">
+                    <h3>Creamy White Sauce Pasta </h3>
+                    <div class="rating">★★★★★ <span>(350)</span></div>
+                </div>
+            </article>
+            </a>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <p> Recipe Paradise.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
